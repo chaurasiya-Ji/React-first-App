@@ -1,4 +1,6 @@
 import React from "react";
+import './Navbar.css';
+
 import  {NavLink} from 'react-router-dom';
 const Navbar = ()=>{
     return(
@@ -7,7 +9,7 @@ const Navbar = ()=>{
     <NavLink to = "/home">Home</NavLink>
     <NavLink to = "/about">About</NavLink>
     </div> */}
-    <nav className="navbar navbar-expand-lg bg-dark navbar-dark">
+    <nav className="navbar navbar-expand-lg bg-dark navbar-dark nav">
     <div className="container-fluid">
       <a className="navbar-brand" href="/">Code</a>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,6 +22,9 @@ const Navbar = ()=>{
           </li>
           <li className="nav-item">
           <NavLink to = "/about" className="nav-link" >About</NavLink>
+          </li>
+          <li className="nav-item">
+          <NavLink to = "/contect" className="nav-link" >Contect</NavLink>
           </li>
         </ul>
         <form className="d-flex" role="search">
