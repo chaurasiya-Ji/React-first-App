@@ -8,7 +8,7 @@ const Text = () => {
   useEffect(() => {
     // Options for the Typed.js
     const options = {
-      strings: ['<i>Welcome to the Coding Blog.</i>'],
+      strings: ['<i>"Welcome to the CodeBlog. Here, you will find insightful articles, tutorials, and tips on various programming languages and technologies."</i>'],
       typeSpeed: 30,
     };
 
